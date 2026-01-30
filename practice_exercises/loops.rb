@@ -1,7 +1,14 @@
 #loops practice!
 
-loop do
-  puts "This will keep printing until you hit Ctrl + C"
-end
+# loop do
+#   puts "This will keep printing until you hit Ctrl + C"
+# end
 
-loops
+# loops
+
+i = 0
+loop do
+  i+=1
+  puts i
+  break
+end
