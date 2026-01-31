@@ -29,12 +29,25 @@
   # end
 
 #while loops
+  # puts "Please enter a number greater than 0: "
+  # x = gets.chomp.to_i
+
+  # while x >= 0
+  #   puts x
+  #   x = x - 1
+  # end
+
+  # puts "Done!"
+
   puts "Please enter a number greater than 0: "
   x = gets.chomp.to_i
 
-  while x >= 0
-    puts x
-    x = x - 1
-  end
+  loop do
+    break if x < 0
+      puts x
+      x = x - 1
+    end
+  
 
   puts "Done!"
+
