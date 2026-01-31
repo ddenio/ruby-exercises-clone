@@ -39,15 +39,26 @@
 
   # puts "Done!"
 
-  puts "Please enter a number greater than 0: "
+  # puts "Please enter a number greater than 0: "
+  # x = gets.chomp.to_i
+
+  # loop do
+  #   break if x < 0
+  #     puts x
+  #     x = x - 1
+  #   end
+  
+
+  # puts "Done!"
+
+
+#for loops
+  puts "Enter a number: "
   x = gets.chomp.to_i
 
-  loop do
-    break if x < 0
-      puts x
-      x = x - 1
-    end
-  
+  for i in 1..x do
+    puts x - i
+  end
 
   puts "Done!"
 
