@@ -5,7 +5,14 @@
 # arr = [1, 3, 5, 7, 9, 11]
 # number = 3
 
-arr = [1,3,5,7,9,11]
-number = 4
+  # arr = [1,3,5,7,9,11]
+  # number = 4
 
-arr.include?(number) ? (puts "The array contains #{number}!") : (puts "The array does not contain #{number}")
+  # arr.include?(number) ? (puts "The array contains #{number}!") : (puts "The array does not contain #{number}")
+
+# Exercise 2
+# What will the following programs return? What is the value of arr after each?
+
+    arr = ["b", "a"]
+    arr = print arr.product(Array(1..3))
+    
