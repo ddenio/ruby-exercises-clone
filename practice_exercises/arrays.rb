@@ -36,11 +36,18 @@
 # Exercise 5
 # What is the value of a, b, and c in the following program?
 
-string = "Welcome to America!"
-a = string[6]
-b = string[11]
-c = string[19]
+  # string = "Welcome to America!"
+  # a = string[6]
+  # b = string[11]
+  # c = string[19]
 
-puts "My guess is: 'e', the answer is #{a}"
-puts "My guess is: 'A', the answer is #{b}"
-puts "My guess is: 'error/outof range', the answer is #{c}"
+  # puts "My guess is: 'e', the answer is #{a}"
+  # puts "My guess is: 'A', the answer is #{b}"
+  # puts "My guess is: 'error/outof range', the answer is #{c}"
+
+# Exercise 7
+# Use the each_with_index method to iterate through an array of your creation that prints each index and value of the array.
+
+arr = ["John", "Tim", "Derin", "Karen", "Tom", "Matthew"]
+
+arr.each_with_index { |val, ind| puts "#{ind+1}. #{val}"}
