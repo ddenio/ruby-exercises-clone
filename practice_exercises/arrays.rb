@@ -19,6 +19,17 @@
 # Exercise 3
 # How do you return the word "example" from the following array?
 
-arr = [["test", "hello", "world"],["example", "mem"]]
-puts arr[1][0]
+  # arr = [["test", "hello", "world"],["example", "mem"]]
+  # puts arr[1][0]
+
+# Exercise 4
+# What does each method return in the following example?
+
+arr = [15, 7, 18, 5, 12, 8, 5, 1]
+
+ puts "My guess is: 3, the answer is #{arr.index(5)}"
+
+ #puts "My guess is : 8, the answer is #{arr.index[5]}"
+
+ puts "My guess is: 8, the answer is #{arr[5]}"
     
