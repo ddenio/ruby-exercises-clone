@@ -13,6 +13,12 @@
 # Exercise 2
 # What will the following programs return? What is the value of arr after each?
 
-    arr = ["b", "a"]
-    arr = print arr.product(Array(1..3))
+    # arr = ["b", "a"]
+    # arr = print arr.product(Array(1..3))
+
+# Exercise 3
+# How do you return the word "example" from the following array?
+
+arr = [["test", "hello", "world"],["example", "mem"]]
+puts arr[1][0]
     
