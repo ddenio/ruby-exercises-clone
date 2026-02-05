@@ -28,12 +28,30 @@
 # Using some of Ruby's built-in Hash methods, write a program that loops through a hash and prints all of the keys. 
 # Then write a program that does the same thing except printing the values. Finally, write a program that prints both.
 
-family = {  uncles: ["bob", "joe", "steve"],
-            sisters: ["jane", "jill", "beth"],
-            brothers: ["frank","rob","david"],
-            aunts: ["mary","sally","susan"]
-          }
+# family = {  uncles: ["bob", "joe", "steve"],
+#             sisters: ["jane", "jill", "beth"],
+#             brothers: ["frank","rob","david"],
+#             aunts: ["mary","sally","susan"]
+#           }
 
-family.each_key { |key| puts key }
-family.each_value { |value| puts value}
-family.each { |key, value| puts "Key: #{key}, Value(s): #{value}"}
+# family.each_key { |key| puts key }
+# family.each_value { |value| puts value}
+# family.each { |key, value| puts "Key: #{key}, Value(s): #{value}"}
+
+# Exercise 4
+# Given the following expression, how would you access the name of the person?
+
+# person = {name: 'Bob', occupation: 'web developer', hobbies: 'painting'}
+
+# puts person[:name]
+
+# Exercise 5
+# What method could you use to find out if a Hash contains a specific value in it? Write a program that verifies that the value is within the hash.
+
+person = {name: 'Bob', occupation: 'web developer', hobbies: 'painting'}
+
+if person.value?("Bobbie")
+  puts "Yep, He's here!"
+else
+  puts "Nope! Not here!"
+end 
