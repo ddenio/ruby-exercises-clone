@@ -1,52 +1,19 @@
-# def some_method(number)
-#   number = 7 # this is implicitly returned by the method
+
+# Exercise 1
+# Write a program that prints a greeting message. This program should contain a method called greeting that takes 
+# a name as its parameter and returns a string.
+
+# def greeting(name)
+#   "Hello there, #{name}!"
 # end
 
-# a = 5
-# some_method(a)
-# puts a
+# puts greeting("Derin")
 
-# a = [1, 2, 3]
+# Exercise 3
+# Write a program that includes a method called multiply that takes two arguments and returns the product of the two numbers.
 
-# def mutate(array)
-#   array.pop
-# end
-
-# p "Before mutate method: #{a}"
-# p mutate(a)
-# p "After mutate method: #{a}"
-
-# def add_three(number)
-#   number+3
-# end
-
-# returned_value = add_three(4)
-# puts returned_value
-
-# def just_assignment(number)
-#   foo = number + 3
-# end
-
-# puts just_assignment(2)
-
-# def add(a, b)
-#   a + b
-# end
-
-# def subtract(a, b)
-#   a-b
-# end
-
-# puts add(subtract(10,5), subtract(14,2))
-
-def first
-  puts "first method"
+def multiply(a, b)
+  a * b
 end
 
-def second
-  first
-  puts "second method"
-end
-
-second
-
+puts multiply(5,4)
