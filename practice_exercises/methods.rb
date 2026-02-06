@@ -16,9 +16,25 @@
 # p mutate(a)
 # p "After mutate method: #{a}"
 
-def add_three(number)
-  number+3
+# def add_three(number)
+#   number+3
+# end
+
+# returned_value = add_three(4)
+# puts returned_value
+
+# def just_assignment(number)
+#   foo = number + 3
+# end
+
+# puts just_assignment(2)
+
+def add(a, b)
+  a + b
 end
 
-returned_value = add_three(4)
-puts returned_value
+def subtract(a, b)
+  a-b
+end
+
+puts add(subtract(10,5), subtract(14,2))
