@@ -6,12 +6,19 @@
 # some_method(a)
 # puts a
 
-a = [1, 2, 3]
+# a = [1, 2, 3]
 
-def mutate(array)
-  array.pop
+# def mutate(array)
+#   array.pop
+# end
+
+# p "Before mutate method: #{a}"
+# p mutate(a)
+# p "After mutate method: #{a}"
+
+def add_three(number)
+  number+3
 end
 
-p "Before mutate method: #{a}"
-p mutate(a)
-p "After mutate method: #{a}"
+returned_value = add_three(4)
+puts returned_value
