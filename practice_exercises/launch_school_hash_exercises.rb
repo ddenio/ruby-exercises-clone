@@ -48,10 +48,20 @@
 # Exercise 5
 # What method could you use to find out if a Hash contains a specific value in it? Write a program that verifies that the value is within the hash.
 
-person = {name: 'Bob', occupation: 'web developer', hobbies: 'painting'}
+# person = {name: 'Bob', occupation: 'web developer', hobbies: 'painting'}
 
-if person.value?("Bobbie")
-  puts "Yep, He's here!"
-else
-  puts "Nope! Not here!"
-end 
+# if person.value?("Bobbie")
+#   puts "Yep, He's here!"
+# else
+#   puts "Nope! Not here!"
+# end 
+
+def create_favorite_hash(color, number)
+  # return a hash with the following key/value pairs:
+  # key of color (as a symbol) with value of the color argument
+  # key of number (as a symbol) with the value of the number argument
+  create_favorite_hash = { color: color, number: number}
+  
+end
+
+create_favorite_hash("Blue", 18)
