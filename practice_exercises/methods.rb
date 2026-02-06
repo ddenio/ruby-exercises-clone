@@ -29,12 +29,24 @@
 
 # puts just_assignment(2)
 
-def add(a, b)
-  a + b
+# def add(a, b)
+#   a + b
+# end
+
+# def subtract(a, b)
+#   a-b
+# end
+
+# puts add(subtract(10,5), subtract(14,2))
+
+def first
+  puts "first method"
 end
 
-def subtract(a, b)
-  a-b
+def second
+  first
+  puts "second method"
 end
 
-puts add(subtract(10,5), subtract(14,2))
+second
+
