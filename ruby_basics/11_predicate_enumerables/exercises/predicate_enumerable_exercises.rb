@@ -10,11 +10,12 @@ end
 
 def twenty_first_century_years?(year_list)
   # use #all? to return true when all of the years in the year_list (array) are between 2001 and 2100
-  year_list.all? { |year| 2001 < year < 2100}
+  year_list.all? { |year| year.between?(2001, 2100)}
 end
 
 def correct_format?(word_list)
   # use #none? to return true when none of the words in the word_list (array) are in upcase
+  word_list.none? { |word| word == word.upcase}
 end
 
 def valid_scores?(score_list, perfect_score)

@@ -50,17 +50,17 @@ RSpec.describe 'Predicate Enumerable Exercises' do
 
   describe 'twenty-first century years exercise' do
 
-    xit 'returns true when all of the years are between 2001 and 2100' do
+    it 'returns true when all of the years are between 2001 and 2100' do
       year_list = [2001, 2002, 2099, 2100]
       expect(twenty_first_century_years?(year_list)).to be true
     end
 
-    xit 'returns false when some of the years are not between 2001 and 2100' do
+    it 'returns false when some of the years are not between 2001 and 2100' do
       year_list = [2000, 2042, 2084, 2101]
       expect(twenty_first_century_years?(year_list)).to be false
     end
 
-    xit 'returns true when the list is empty' do
+    it 'returns true when the list is empty' do
       year_list = []
       expect(twenty_first_century_years?(year_list)).to be true
     end
@@ -68,17 +68,17 @@ RSpec.describe 'Predicate Enumerable Exercises' do
 
   describe 'correct format exercise' do
 
-    xit 'returns true when none of the words in the list are in upcase' do
+    it 'returns true when none of the words in the list are in upcase' do
       word_list = ["Pepsi", "Coke", "Dr. Pepper"]
       expect(correct_format?(word_list)).to be true
     end
 
-    xit 'returns false when at least one word in the list is in upcase' do
+    it 'returns false when at least one word in the list is in upcase' do
       word_list = ["PEPSI", "Coke", "Dr. Pepper"]
       expect(correct_format?(word_list)).to be false
     end
 
-    xit 'returns true when the list is empty' do
+    it 'returns true when the list is empty' do
       word_list = []
       expect(correct_format?(word_list)).to be true
     end
