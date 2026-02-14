@@ -43,7 +43,7 @@ end
 
 def count_empty_seats(chart)
   # take a chart and return the number of empty (nil) seats in it
-
+  chart.flatten.count(nil)
   # NOTE: `chart` should **not** be mutated
 end
 
