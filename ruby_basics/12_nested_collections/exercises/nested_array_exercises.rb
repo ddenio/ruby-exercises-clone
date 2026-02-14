@@ -2,7 +2,7 @@ def blank_seating_chart(number_of_rows, seats_per_row)
   # return a 2d array to represent a seating chart that contains
   # number_of_rows nested arrays, each with seats_per_row entries of nil to
   # represent that each seat is empty.
-
+  Array.new(number_of_rows) { Array.new(seats_per_row) }
   # Example: blank_seating_chart(2, 3) should return:
   # [
   #   [nil, nil, nil],
