@@ -36,7 +36,9 @@ end
 
 def delete_row_from_chart(chart, row_index)
   # take a chart and delete the row at row_index of the chart,
+  chart.delete_at(row_index)
   # then return the chart
+  chart
 end
 
 def count_empty_seats(chart)
